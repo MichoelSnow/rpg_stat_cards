@@ -73,9 +73,15 @@
             \vspace{4em}
             % DISPLAY NAME
             \centering{
-            \rotatebox[origin=c]{180}{
-                {\LARGE{\textbf{ZIN [DARSH]}}}
-            }}\\[3em]
+            	\colorbox{white}{\parbox{0.8\textwidth}{%
+            		\vspace{0.1in}
+            			\centering{
+            				\rotatebox[origin=c]{180}{\LARGE{\textbf{ZIN [DARSH]}}}
+            			}
+            		\vspace{0.1in}
+            		}
+            	}
+            }\\[3em]
             \rule{\textwidth}{0.5pt}\\[2em]
         
             % NAME
