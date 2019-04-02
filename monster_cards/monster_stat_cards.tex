@@ -15,7 +15,7 @@
 \usepackage{tikz}
 \usepackage{array}
 \newcolumntype{^}{>{\global\let\currentrowstyle\relax}}
-\newcolumntype{@}{>{\currentrowstyle}}
+\newcolumntype{*}{>{\currentrowstyle}}
 \newcommand{\rowstyle}[1]{\gdef\currentrowstyle{#1}%
   #1\ignorespaces
 }
@@ -81,7 +81,7 @@
         \vspace{0.1in}
         
         % AC/HP/SPEED
-        \begin{tabularx}{\textwidth}{^Z|@U|@U}  
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
             \rowcolor{black} 
             \rowstyle{\bfseries}
             \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
@@ -91,7 +91,7 @@
             \rowcolor{white} 
              & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
             \rowcolor{black} 
-            \multicolumn{3}{c}{\textcolor{white}{\textbf{ACTIONS}}}
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
         \end{tabularx}\\	
         % ACTIONS
         \begin{minipage}[c]{0.2\textwidth}
@@ -116,17 +116,17 @@
         \begin{minipage}[t]{0.2\textwidth}
             {\large
             \textcolor{red}{\textbf{STR}}\\[0.1em]
-            $\mathbf{+3}$\quad$^{16}$ \\[0.1em]
+            $\mathbf{+3}$\,\,$^{16}$ \\[0.1em]
             \textcolor{red}{\textbf{DEX}}\\[0.1em]
-            $\mathbf{+4}$\quad$^{19}$ \\[0.1em]
+            $\mathbf{+4}$\,\,$^{19}$ \\[0.1em]
             \textcolor{red}{\textbf{CON}}\\[0.1em]
-            $\mathbf{+2}$\quad$^{14}$ \\[0.1em]
+            $\mathbf{+2}$\,\,$^{14}$ \\[0.1em]
             \textcolor{red}{\textbf{INT}}\\[0.1em]
-            $\mathbf{+0}$\quad$^{10}$ \\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
             \textcolor{red}{\textbf{WIS}}\\[0.1em]
-            $\mathbf{+2}$\quad$^{15}$ \\[0.1em]
+            $\mathbf{+2}$\,\,$^{15}$ \\[0.1em]
             \textcolor{red}{\textbf{CHA}}\\[0.1em]
-            $\mathbf{+0}$\quad$^{11}$ \\[0.1em]
+            $\mathbf{+0}$\,\,$^{11}$ \\[0.1em]
             }
         \end{minipage}
         \hspace{-0.1in}
@@ -169,7 +169,7 @@
         \vspace{0.1in}
         
         % AC/HP/SPEED
-        \begin{tabularx}{\textwidth}{^Z|@U|@U}  
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
             \rowcolor{black} 
             \rowstyle{\bfseries}
             \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
@@ -179,7 +179,7 @@
             \rowcolor{white} 
              & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
             \rowcolor{black} 
-            \multicolumn{3}{c}{\textcolor{white}{\textbf{ACTIONS}}}
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
         \end{tabularx}\\	
         % ACTIONS
         \begin{minipage}[c]{0.2\textwidth}
@@ -204,17 +204,17 @@
         \begin{minipage}[t]{0.2\textwidth}
             {\large
             \textcolor{red}{\textbf{STR}}\\[0.1em]
-            $\mathbf{+3}$\quad$^{16}$ \\[0.1em]
+            $\mathbf{+3}$\,\,$^{16}$ \\[0.1em]
             \textcolor{red}{\textbf{DEX}}\\[0.1em]
-            $\mathbf{+4}$\quad$^{19}$ \\[0.1em]
+            $\mathbf{+4}$\,\,$^{19}$ \\[0.1em]
             \textcolor{red}{\textbf{CON}}\\[0.1em]
-            $\mathbf{+2}$\quad$^{14}$ \\[0.1em]
+            $\mathbf{+2}$\,\,$^{14}$ \\[0.1em]
             \textcolor{red}{\textbf{INT}}\\[0.1em]
-            $\mathbf{+0}$\quad$^{10}$ \\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
             \textcolor{red}{\textbf{WIS}}\\[0.1em]
-            $\mathbf{+2}$\quad$^{15}$ \\[0.1em]
+            $\mathbf{+2}$\,\,$^{15}$ \\[0.1em]
             \textcolor{red}{\textbf{CHA}}\\[0.1em]
-            $\mathbf{+0}$\quad$^{11}$ \\[0.1em]
+            $\mathbf{+0}$\,\,$^{11}$ \\[0.1em]
             }
         \end{minipage}
         \hspace{-0.1in}
