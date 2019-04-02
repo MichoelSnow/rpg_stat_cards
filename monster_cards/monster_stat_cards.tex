@@ -20,6 +20,14 @@
   #1\ignorespaces
 }
 
+\usepackage{adjustbox}
+
+% Disable hyphenation
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
 %\usepackage{environ}
 %\NewEnviron{dname}
 %{%
@@ -52,178 +60,188 @@
 \begin{document}
 %\AddToShipoutPicture\put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{texture1.pdf}
 
-\begin{minipage}[t][10in][t]{0.4\textwidth}
 
-	% DISPLAY NAME
-	\rotatebox[origin=c]{180}{
-		\centering{\LARGE{\textbf{INVISIBLE STALKER}}}
-	}\\[2em]
-	\rule{\textwidth}{0.5pt}\\[2em]
-	
-	% NAME
-	\centering{\LARGE{\textbf{INVISIBLE STALKER}}}\\
-	\vspace{0.1in}
-	
-	% AC/HP/SPEED
-	\begin{tabularx}{\textwidth}{^Z|@U|@U}  
-		\rowcolor{black} 
-		\rowstyle{\bfseries}
-		\textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
-		\rowstyle{\huge} 
-  		\vspace{0.2in}20 \vspace{0.2in}& 5 & 6$'$ \\
-  		 & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
-  		\rowcolor{black} 
-  		\multicolumn{3}{c}{\textcolor{white}{\textbf{ACTIONS}}}
-	\end{tabularx}\\	
-	% ACTIONS
-	\begin{minipage}[c]{0.2\textwidth}
-		\vspace{0.1in} 
-		\circled{\huge $+6$}
-	\end{minipage}
-	\hspace{0.01\textwidth}
-	\begin{minipage}[t]{0.7\textwidth}
-		\vspace{-0.2in} 
-		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
-		slam ($5'$, b)
-%		\\[0.5em]
-%		{\large \textbf{OR}} \\[0.5em]
-%		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
-%		slam ($5'$, b)
-		
-	\end{minipage}
-	\vspace{0.025in}\\
-	\rule{\textwidth}{1pt}\\
-	\vspace{0.025in}
-	% STAT BLOCK
-	\begin{minipage}[t]{0.2\textwidth}
-		{\large
-		\textcolor{red}{\textbf{STR}}\\[0.1em]
-		$\mathbf{+3}$\quad$^{16}$ \\[0.1em]
-		\textcolor{red}{\textbf{DEX}}\\[0.1em]
-		$\mathbf{+4}$\quad$^{19}$ \\[0.1em]
-		\textcolor{red}{\textbf{CON}}\\[0.1em]
-		$\mathbf{+2}$\quad$^{14}$ \\[0.1em]
-		\textcolor{red}{\textbf{INT}}\\[0.1em]
-		$\mathbf{+0}$\quad$^{10}$ \\[0.1em]
-		\textcolor{red}{\textbf{WIS}}\\[0.1em]
-		$\mathbf{+2}$\quad$^{15}$ \\[0.1em]
-		\textcolor{red}{\textbf{CHA}}\\[0.1em]
-		$\mathbf{+0}$\quad$^{11}$ \\[0.1em]
-		}
-	\end{minipage}
-	\hspace{-0.1in}
-	\vline
-	\hspace{0.1in}
-	% ABILITIES
-	\begin{minipage}[t]{0.7\textwidth}
-		\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
-		\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
-	\end{minipage}
-	\vspace{0.025in}\\
-	\rule{\textwidth}{1pt}\\
-	\vspace{-0.08in}
-	% PROPERTIES
-	\begin{flushleft}
-		{\large\textbf{MEDIUM ELEMENTAL, N}}\\
-		\textcolor{red}{\textbf{SKILLS}} Perception +8, Stealth +10 \\
-		\textcolor{red}{\textbf{RESIST}} Bludgeoning, Piercing, And Slashing From Nonmagical Weapons\\
-		\textcolor{red}{\textbf{IMMUNE}} Poison, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\\
-		\textcolor{red}{\textbf{SENSE}} Darkvision $60'$, Pass Perception 18\\
-		\textcolor{red}{\textbf{LANG}} Auran, Understands Common But Doesn't Speak It\\
-		\textcolor{red}{\textbf{CR(XP)}}  6 (2,300 XP)\\
-	\end{flushleft}
-	
-	
-	
-	
-\end{minipage}
-\hspace{0.1\textwidth}
-\begin{minipage}[t][10in][t]{0.4\textwidth}
 
-	% DISPLAY NAME
-	\rotatebox[origin=c]{180}{
-		\centering{\LARGE{\textbf{INVISIBLE STALKER}}}
-	}\\[2em]
-	\rule{\textwidth}{0.5pt}\\[2em]
-	
-	
-	
-	% NAME
-	\centering{\LARGE{\textbf{INVISIBLE STALKER}}}\\
-	\vspace{0.1in}
-	
-	% AC/HP/SPEED
-	\begin{tabularx}{\textwidth}{^Z|@U|@U}  
-		\rowcolor{black} 
-		\rowstyle{\bfseries}
-		\textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
-		\rowstyle{\huge} 
-  		\vspace{0.2in}20 \vspace{0.2in}& 5 & 6$'$ \\
-  		 & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
-  		\rowcolor{black} 
-  		\multicolumn{3}{c}{\textcolor{white}{\textbf{ACTIONS}}}
-	\end{tabularx}\\	
-	% ACTIONS
-	\begin{minipage}[c]{0.2\textwidth}
-		\vspace{0.1in} 
-		\circled{\huge $+6$}
-	\end{minipage}
-	\hspace{0.01\textwidth}
-	\begin{minipage}[t]{0.7\textwidth}
-		\vspace{-0.2in} 
-		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
-		slam ($5'$, b)
-%		\\[0.5em]
-%		{\large \textbf{OR}} \\[0.5em]
-%		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
-%		slam ($5'$, b)
-		
-	\end{minipage}
-	\vspace{0.025in}\\
-	\rule{\textwidth}{1pt}\\
-	\vspace{0.025in}
-	% STAT BLOCK
-	\begin{minipage}[t]{0.2\textwidth}
-		{\large
-		\textcolor{red}{\textbf{STR}}\\[0.1em]
-		$\mathbf{+3}$\quad$^{16}$ \\[0.1em]
-		\textcolor{red}{\textbf{DEX}}\\[0.1em]
-		$\mathbf{+4}$\quad$^{19}$ \\[0.1em]
-		\textcolor{red}{\textbf{CON}}\\[0.1em]
-		$\mathbf{+2}$\quad$^{14}$ \\[0.1em]
-		\textcolor{red}{\textbf{INT}}\\[0.1em]
-		$\mathbf{+0}$\quad$^{10}$ \\[0.1em]
-		\textcolor{red}{\textbf{WIS}}\\[0.1em]
-		$\mathbf{+2}$\quad$^{15}$ \\[0.1em]
-		\textcolor{red}{\textbf{CHA}}\\[0.1em]
-		$\mathbf{+0}$\quad$^{11}$ \\[0.1em]
-		}
-	\end{minipage}
-	\hspace{-0.1in}
-	\vline
-	\hspace{0.1in}
-	% ABILITIES
-	\begin{minipage}[t]{0.7\textwidth}
-		\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
-		\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
-	\end{minipage}
-	\vspace{0.025in}\\
-	\rule{\textwidth}{1pt}\\
-	\vspace{-0.08in}
-	% PROPERTIES
-	\begin{flushleft}
-		{\large\textbf{MEDIUM ELEMENTAL, N}}\\
-		\textcolor{red}{\textbf{SKILLS}} Perception +8, Stealth +10 \\
-		\textcolor{red}{\textbf{RESIST}} Bludgeoning, Piercing, And Slashing From Nonmagical Weapons\\
-		\textcolor{red}{\textbf{IMMUNE}} Poison, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\\
-		\textcolor{red}{\textbf{SENSE}} Darkvision $60'$, Pass Perception 18\\
-		\textcolor{red}{\textbf{LANG}} Auran, Understands Common But Doesn't Speak It\\
-		\textcolor{red}{\textbf{CR(XP)}}  6 (2,300 XP)\\
-	\end{flushleft}
-	
-	
-	
-	
-\end{minipage}
+
+
+
+
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{2em}
+            % DISPLAY NAME
+            \rotatebox[origin=c]{180}{
+                \centering{\LARGE{\textbf{INVISIBLE STALKER}}}
+            }\\[2em]
+        \rule{\textwidth}{0.5pt}\\[2em]
+        
+        % NAME
+        \centering{\LARGE{\textbf{INVISIBLE STALKER}}}\\
+        \vspace{0.1in}
+        
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|@U|@U}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}20 \vspace{0.2in}& 5 & 6$'$ \\
+            \rowcolor{white} 
+             & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
+            \rowcolor{black} 
+            \multicolumn{3}{c}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+6$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+            slam ($5'$, b)
+    %		\\[0.5em]
+    %		{\large \textbf{OR}} \\[0.5em]
+    %		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+    %		slam ($5'$, b)
+            
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{+3}$\quad$^{16}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{+4}$\quad$^{19}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{+2}$\quad$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{+0}$\quad$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{+2}$\quad$^{15}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{+0}$\quad$^{11}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            \textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{MEDIUM ELEMENTAL, N}}\\
+            \textcolor{red}{\textbf{SKILLS}} Perception +8, Stealth +10 \\
+            \textcolor{red}{\textbf{RESIST}} Bludgeoning, Piercing, And Slashing From Nonmagical Weapons\\
+            \textcolor{red}{\textbf{IMMUNE}} Poison, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\\
+            \textcolor{red}{\textbf{SENSE}} Darkvision $60'$, Pass Perception 18\\
+            \textcolor{red}{\textbf{LANG}} Auran, Understands Common But Doesn't Speak It\\
+            \textcolor{red}{\textbf{CR(XP)}}  6 (2,300 XP)\\
+        \end{flushleft}
+        \end{minipage}
+	}
+\end{adjustbox}
+\hspace{0.05\textwidth}
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{2em}
+            % DISPLAY NAME
+            \rotatebox[origin=c]{180}{
+                \centering{\LARGE{\textbf{INVISIBLE STALKER}}}
+            }\\[2em]
+        \rule{\textwidth}{0.5pt}\\[2em]
+        
+        % NAME
+        \centering{\LARGE{\textbf{INVISIBLE STALKER}}}\\
+        \vspace{0.1in}
+        
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|@U|@U}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}20 \vspace{0.2in}& 5 & 6$'$ \\
+            \rowcolor{white} 
+             & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
+            \rowcolor{black} 
+            \multicolumn{3}{c}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+6$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+            slam ($5'$, b)
+    %		\\[0.5em]
+    %		{\large \textbf{OR}} \\[0.5em]
+    %		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+    %		slam ($5'$, b)
+            
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{+3}$\quad$^{16}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{+4}$\quad$^{19}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{+2}$\quad$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{+0}$\quad$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{+2}$\quad$^{15}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{+0}$\quad$^{11}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            \textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{MEDIUM ELEMENTAL, N}}\\
+            \textcolor{red}{\textbf{SKILLS}} Perception +8, Stealth +10 \\
+            \textcolor{red}{\textbf{RESIST}} Bludgeoning, Piercing, And Slashing From Nonmagical Weapons\\
+            \textcolor{red}{\textbf{IMMUNE}} Poison, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\\
+            \textcolor{red}{\textbf{SENSE}} Darkvision $60'$, Pass Perception 18\\
+            \textcolor{red}{\textbf{LANG}} Auran, Understands Common But Doesn't Speak It\\
+            \textcolor{red}{\textbf{CR(XP)}}  6 (2,300 XP)\\
+        \end{flushleft}
+        \end{minipage}
+	}
+\end{adjustbox}
+
+
 
 \end{document}
