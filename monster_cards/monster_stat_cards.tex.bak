@@ -71,13 +71,15 @@
         \begin{minipage}[t][10.5in][t]{0.9\textwidth}
             \vspace{4em}
             % DISPLAY NAME
+            \centering{
             \rotatebox[origin=c]{180}{
-                \centering{\LARGE{\textbf{INVISIBLE STALKER}}}
-            }\\[3em]
-        \rule{\textwidth}{0.5pt}\\[2em]
+                \centering{\LARGE{\textbf{KENKU}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
         
         % NAME
-        \centering{\LARGE{\textbf{INVISIBLE STALKER}}}\\
+        \centering{\LARGE{\textbf{KENKU}}}\\
         \vspace{0.1in}
         
         % AC/HP/SPEED
@@ -87,26 +89,26 @@
             \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
             \rowcolor{white} 
             \rowstyle{\huge} 
-            \vspace{0.2in}20 \vspace{0.2in}& 5 & 6$'$ \\
+            \vspace{0.2in}13 \vspace{0.2in}& 13 & 30$'$ \\
             \rowcolor{white} 
-             & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
+             & $(3d8)$ &  \\
             \rowcolor{black} 
             \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
         \end{tabularx}\\	
         % ACTIONS
         \begin{minipage}[c]{0.2\textwidth}
             \vspace{0.1in} 
-            \circled{\huge $+6$}
+            \circled{\huge $+5$}
         \end{minipage}
         \hspace{0.01\textwidth}
         \begin{minipage}[t]{0.7\textwidth}
             \vspace{-0.2in} 
-            {\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
-            slam ($5'$, b)
-    %		\\[0.5em]
-    %		{\large \textbf{OR}} \\[0.5em]
-    %		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
-    %		slam ($5'$, b)
+            {\huge$\textcolor{red}{\mathbf{1d6 +3}}^{6}\textcolor{red}{\times 1}$}\\[0.5em]
+            shortsword ($5'$, p)
+    		\\[0.5em]
+    		{\large \textbf{OR}} \\[0.5em]
+    		{\huge$\textcolor{red}{\mathbf{1d6 +3}}^{6}\textcolor{red}{\times 1}$}\\[0.5em]
+    		shortbow ($80/320'$, p)
             
         \end{minipage}
         \vspace{0.025in}\\
@@ -116,17 +118,17 @@
         \begin{minipage}[t]{0.2\textwidth}
             {\large
             \textcolor{red}{\textbf{STR}}\\[0.1em]
-            $\mathbf{+3}$\,\,$^{16}$ \\[0.1em]
-            \textcolor{red}{\textbf{DEX}}\\[0.1em]
-            $\mathbf{+4}$\,\,$^{19}$ \\[0.1em]
-            \textcolor{red}{\textbf{CON}}\\[0.1em]
-            $\mathbf{+2}$\,\,$^{14}$ \\[0.1em]
-            \textcolor{red}{\textbf{INT}}\\[0.1em]
             $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
-            \textcolor{red}{\textbf{WIS}}\\[0.1em]
-            $\mathbf{+2}$\,\,$^{15}$ \\[0.1em]
-            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{+3}$\,\,$^{16}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
             $\mathbf{+0}$\,\,$^{11}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
             }
         \end{minipage}
         \hspace{-0.1in}
@@ -134,21 +136,21 @@
         \hspace{0.1in}
         % ABILITIES
         \begin{minipage}[t]{0.7\textwidth}
-            \textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
-            \textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+            \textcolor{red}{\textbf{Ambusher}}  In the first round of a combat, the kenku has advantage on attack rolls against any creature it surprised. \\[0.2em]
+            \textcolor{red}{\textbf{Mimicry}} The kenku can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.
         \end{minipage}
         \vspace{0.025in}\\
         \rule{\textwidth}{1pt}\\
         \vspace{-0.08in}
         % PROPERTIES
         \begin{flushleft}
-            {\large\textbf{MEDIUM ELEMENTAL, N}}\\
-            \textcolor{red}{\textbf{SKILLS}} Perception +8, Stealth +10 \\
-            \textcolor{red}{\textbf{RESIST}} Bludgeoning, Piercing, And Slashing From Nonmagical Weapons\\
-            \textcolor{red}{\textbf{IMMUNE}} Poison, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\\
-            \textcolor{red}{\textbf{SENSE}} Darkvision $60'$, Pass Perception 18\\
-            \textcolor{red}{\textbf{LANG}} Auran, Understands Common But Doesn't Speak It\\
-            \textcolor{red}{\textbf{CR(XP)}}  6 (2,300 XP)\\
+            {\large\textbf{MEDIUM HUMANOID, CN}}\\
+            \textcolor{red}{\textbf{SKILLS}} Deception +4, Perception +2, Stealth +5 \\
+            \textcolor{red}{\textbf{RESIST}} None \\
+            \textcolor{red}{\textbf{IMMUNE}} None\\
+            \textcolor{red}{\textbf{SENSE}} Pass Perception 12\\
+            \textcolor{red}{\textbf{LANG}} Aunderstands Auran and Common but speaks only through the use of its Mimicry trait\\
+            \textcolor{red}{\textbf{CR(XP)}}  1/4 (50 XP)\\
         \end{flushleft}
         \end{minipage}
 	}
@@ -159,10 +161,771 @@
         \begin{minipage}[t][10.5in][t]{0.9\textwidth}
             \vspace{4em}
             % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\LARGE{\textbf{GAZER}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+        
+        % NAME
+        \centering{\LARGE{\textbf{GAZER}}}\\
+        \vspace{0.1in}
+        
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}13 \vspace{0.2in}& 13 & 0 $'$ \\
+            \rowcolor{white} 
+             & $(3d4 +6)$ &  30$'$ Fly  (hover)\\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+5$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{1}}^{1}\textcolor{red}{\times 1}$}\\[0.5em]
+            Bite ($5'$, p)
+%    		\\[0.5em]
+%    		{\large \textbf{OR}} \\[0.5em]
+%    		{\huge$\textcolor{red}{\mathbf{1d6 +3}}^{6}\textcolor{red}{\times 1}$}\\[0.5em]
+%    		shortbow ($80/320'$, p)
+            
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{+3}$\,\,$^{16}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{11}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Aggressive}}  As a bonus action, the gazer can move up to its speed toward a hostile creature that it can see. \\[0.2em]
+            \textcolor{red}{\textbf{Mimicry}} The gazer can mimic simple sounds of speech it has heard, in any language. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check. \\[0.2em]
+            \textcolor{red}{\textbf{Eye Rays}} The gazer shoots two of the following magical eye rays at random (reroll duplicates), choosing one or two targets it can see within 60 feet of it: \\
+			\textbf{1} Dazing Ray: DC 12 WIS or charmed until the start of the gazer's next turn and 1/2 speed + disadvantage on ATK rolls.\\
+			\textbf{2} Fear Ray: DC 12 WIS or frightened until the start of the gazer's next turn. \\
+			\textbf{3} Frost Ray: DC 12 DEX or take 10 (3d6) cold damage. \\
+			\textbf{4} Telekinetic Ray: DC 12 Strength saving throw or be moved up to 30 feet directly away from the gazer. 
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{TINY ABERRATION, NE}}\\
+            \textcolor{red}{\textbf{SAVING THROWS}} Widsom +2  \\
+            \textcolor{red}{\textbf{SKILLS}} Perception +4, Stealth +2 \\
+            \textcolor{red}{\textbf{RESIST}} None \\
+            \textcolor{red}{\textbf{IMMUNE}} Prone\\
+            \textcolor{red}{\textbf{SENSE}} darkvision 60 $'$\\
+            \textcolor{red}{\textbf{LANG}} None\\
+            \textcolor{red}{\textbf{CR(XP)}}  1/2 (100 XP)\\
+        \end{flushleft}
+        \end{minipage}
+	}
+\end{adjustbox}
+
+\pagebreak
+
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\Large{\textbf{GOBLIN}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+
+        % NAME
+        \centering{\Large{\textbf{GOBLIN}}}\\
+        \vspace{0.1in}
+
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}15 \vspace{0.2in}& 7 & 30 ft. \\
+            \rowcolor{white} 
+             & $(2d6 + 0)$ &   \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+4$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+            scimitar ($5'$, p)
+    				\\[0.5em]
+    				{\large \textbf{OR}} \\[0.5em]
+    				{\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+    				shortbow ($80/320'$, p)   
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Nimble Escape}} The goblin can take the Disengage or Hide action as a bonus action on each of its turns. \\[0.2em]
+            %\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            %\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{SMALL HUMANOID, NE}}\\
+            \textcolor{red}{\textbf{SKILLS}} Stealth +6 \\
+            \textcolor{red}{\textbf{SAVES}} None \\
+            \textcolor{red}{\textbf{RESIST}} None\\
+            \textcolor{red}{\textbf{IMMUNE}} None\\
+            \textcolor{red}{\textbf{VULN}} None\\      
+            \textcolor{red}{\textbf{SENSE}} darkvision 60 ft., passive Perception 9\\
+            \textcolor{red}{\textbf{LANG}} Common, Goblin\\
+            \textcolor{red}{\textbf{CR}}  0.25\\
+        \end{flushleft}
+        \end{minipage}
+    }
+\end{adjustbox}                     
+\hspace{0.05\textwidth}
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\Large{\textbf{DUERGAR}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+
+        % NAME
+        \centering{\Large{\textbf{DUERGAR}}}\\
+        \vspace{0.1in}
+
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}16 \vspace{0.2in}& 26 & 25 ft. \\
+            \rowcolor{white} 
+             & $(4d8 + 8)$ &   \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+4$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{1d8+2}}^{6}\textcolor{red}{\times 1}$}\\[0.5em]
+            war pick ($5'$, p), $+1d8$ if enlarged
+		    		\\[0.5em]
+		    		{\large \textbf{OR}} \\[0.5em]
+		    		{\huge$\textcolor{red}{\mathbf{1d6+2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+ 			   		javelin ($30/120'$, p), $+1d6$ if enlarged
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{11}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{11}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{9}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Duergar Resilience}} The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed. \\[0.2em]
+            \textcolor{red}{\textbf{Sunlight Sensitivity}} While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight. \\[0.2em]
+            \textcolor{red}{\textbf{Enlarge}} For 1 minute, the duergar magically increases in size to Large. It makes Strength checks and Strength saving throws with advantage.  \\[0.2em]
+            \textcolor{red}{\textbf{Invisibility}} The duergar magically turns invisible up to 1 hour until it attacks, casts a spell, or its concentration is broken\\[0.2em]
+            %\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            %\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{MEDIUM HUMANOID, LE}}\\
+            \textcolor{red}{\textbf{SKILLS}} None \\
+            \textcolor{red}{\textbf{SAVES}} None \\
+            \textcolor{red}{\textbf{RESIST}} poison\\
+            \textcolor{red}{\textbf{IMMUNE}} None\\
+            \textcolor{red}{\textbf{VULN}} None\\      
+            \textcolor{red}{\textbf{SENSE}} darkvision 120$'$, passive Perception 10\\
+            \textcolor{red}{\textbf{LANG}} Dwarvish, Undercommon\\
+            \textcolor{red}{\textbf{CR}}  1\\
+        \end{flushleft}
+        \end{minipage}
+    }
+\end{adjustbox}                     
+    
+
+
+
+\pagebreak
+
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\Large{\textbf{BANDIT}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+
+        % NAME
+        \centering{\Large{\textbf{BANDIT}}}\\
+        \vspace{0.1in}
+
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}12 \vspace{0.2in}& 11 & 30 ft. \\
+            \rowcolor{white} 
+             & $(2d8 + 2)$ &   \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+3$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{1d6+1}}^{4}\textcolor{red}{\times 1}$}\\[0.5em]
+            scimitar ($5'$, p)
+        		\\[0.5em]
+        		{\large \textbf{OR}} \\[0.5em]
+        		{\huge$\textcolor{red}{\mathbf{1d8+1}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+        		light crossbow ($80/320'$, p)
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{11}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{1}$\,\,$^{12}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{1}$\,\,$^{12}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            None
+            %\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            %\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{MEDIUM HUMANOID, ANA}}\\
+            \textcolor{red}{\textbf{SKILLS}} None \\
+            \textcolor{red}{\textbf{SAVES}} None \\
+            \textcolor{red}{\textbf{RESIST}} None\\
+            \textcolor{red}{\textbf{IMMUNE}} None\\
+            \textcolor{red}{\textbf{VULN}} None\\      
+            \textcolor{red}{\textbf{SENSE}} passive Perception 10\\
+            \textcolor{red}{\textbf{LANG}} any one language (usually Common)\\
+            \textcolor{red}{\textbf{CR}}  0.125\\
+        \end{flushleft}
+        \end{minipage}
+    }
+\end{adjustbox}                  
+\hspace{0.05\textwidth}
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\Large{\textbf{GRAY OOZE}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+
+        % NAME
+        \centering{\Large{\textbf{GRAY OOZE}}}\\
+        \vspace{0.1in}
+
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}8 \vspace{0.2in}& 22 & 10 ft. \\
+            \rowcolor{white} 
+             & $(3d8 + 9)$ &  climb 10 ft.  \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+3$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{3d6+1}}^{11}\textcolor{red}{\times 1}$}\\[0.5em]
+            pseudopod ($5'$, b,a)
+        %	\\[0.5em]
+        %	{\large \textbf{OR}} \\[0.5em]
+        %	{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+        %	slam ($5'$, b)
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{1}$\,\,$^{12}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{-2}$\,\,$^{6}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{3}$\,\,$^{16}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{-5}$\,\,$^{1}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{-2}$\,\,$^{6}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{-4}$\,\,$^{2}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Amorphous}} The ooze can move through a space as narrow as 1 inch wide without squeezing. \\[0.2em]
+            \textcolor{red}{\textbf{Corrode Metal}} Any nonmagical weapon made of metal that hits the ooze corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the ooze is destroyed after dealing damage.
+The ooze can eat through 2-inch-thick, nonmagical metal in 1 round. \\[0.2em]
+						\textcolor{red}{\textbf{False Appearance}} While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock. \\[0.2em]
+						\textcolor{red}{\textbf{Pseudopod}} if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. 
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{MEDIUM OOZE, U}}\\
+            \textcolor{red}{\textbf{SKILLS}} Stealth +2 \\
+            \textcolor{red}{\textbf{SAVES}} None \\
+            \textcolor{red}{\textbf{RESIST}} acid, cold, fire\\
+            \textcolor{red}{\textbf{IMMUNE}} blinded, charmed, deafened, exhaustion, frightened, prone\\
+            \textcolor{red}{\textbf{VULN}} None\\      
+            \textcolor{red}{\textbf{SENSE}} blindsight 60 ft. (blind beyond this radius), passive Perception 8\\
+            \textcolor{red}{\textbf{LANG}} \\
+            \textcolor{red}{\textbf{CR}}  0.5\\
+        \end{flushleft}
+        \end{minipage}
+    }
+\end{adjustbox}       
+
+
+\pagebreak
+
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\Large{\textbf{MIND FLAYER}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+
+        % NAME
+        \centering{\Large{\textbf{MIND FLAYER}}}\\
+        \vspace{0.1in}
+
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}15 \vspace{0.2in}& 71 & 30 ft. \\
+            \rowcolor{white} 
+             & $(13d8 + 13)$ &   \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+7$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{2d10 + 4}}^{15}\textcolor{red}{\times 1*}$}\\[0.5em]
+            tentacles ($5'$, psy)
+    				\\[0.5em]
+    				{\large \textbf{OR}} \\[0.5em]
+    				{\huge$\textcolor{red}{\mathbf{10d10}}^{55}\textcolor{red}{\times 1*}$}\\[0.5em]
+    				extract brain ($5'$, p)   
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{11}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{+1}$\,\,$^{12}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{+1}$\,\,$^{12}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{+4}$\,\,$^{19}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{+3}$\,\,$^{17}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{+3}$\,\,$^{17}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Magic Resistance}} Advantage on saving throws against spells/ magical effects. \\[0.2em]
+            \textcolor{red}{\textbf{Innate Spellcasting (Psionics)}} (spell save DC 15). At will: detect thoughts, levitate. 1/day each: dominate monster, plane shift (self only) \\[0.2em]
+            \textcolor{red}{\textbf{Tentacles}}  If $\leq$  Medium, it is grappled (escape DC 15 INT) if fail save they are stunned until this grapple ends. \\[0.2em]
+            \textcolor{red}{\textbf{Extract Brain}} Target is one incapacitated humanoid grappled by the mind flayer (see mm). \\[0.2em]
+            \textcolor{red}{\textbf{Mind Blast}} Recharge 5-6. Psychic energy in a 60-foot cone, DC15 INT save or take $4d8 + 4$ (22) dmg and stunned for 1 minute\\
+            %\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            %\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{MEDIUM ABERRATION, LE}}\\
+            \textcolor{red}{\textbf{SKILLS}} Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4 \\
+            \textcolor{red}{\textbf{SAVES}} Int +7, Wis +6, Cha +6 \\
+            \textcolor{red}{\textbf{RESIST}} None\\
+            \textcolor{red}{\textbf{IMMUNE}} None\\
+            \textcolor{red}{\textbf{VULN}} None\\      
+            \textcolor{red}{\textbf{SENSE}} darkvision 120$'$\\
+            \textcolor{red}{\textbf{LANG}} Deep Speech, Undercommon, telepathy 120 ft.\\
+            \textcolor{red}{\textbf{CR}}  7\\
+        \end{flushleft}
+        \end{minipage}
+    }
+\end{adjustbox}                     
+\hspace{0.05\textwidth}
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \rotatebox[origin=c]{180}{
+                \centering{\LARGE{\textbf{INTELLECT DEVOURER}}}
+            }\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+        
+        % NAME
+        \centering{\LARGE{\textbf{INTELLECT DEVOURER}}}\\
+        \vspace{0.1in}
+        
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}12 \vspace{0.2in}& 21 & 40$'$ \\
+            \rowcolor{white} 
+             & $(6d4+6)$ &  \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+4$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{2d4+2}}^{7}\textcolor{red}{\times 1*}$}\\[0.5em]
+            claws ($5'$, s)
+    %		\\[0.5em]
+    %		{\large \textbf{OR}} \\[0.5em]
+    %		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+    %		slam ($5'$, b)
+            
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{-2}$\,\,$^{6}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{+2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{+1}$\,\,$^{13}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{+1}$\,\,$^{12}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{11}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Detect Sentience}} The intellect devourer can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a mind blank spell. \\[0.2em]
+            \textcolor{red}{\textbf{Devour Intellect.}}  The target must succeed on a DC 12 Int save or take 11 (2d10) psychic damage. Also on a failure, roll 3d6: If the total equals or exceeds the target's Intelligence score, that score is reduced to 0. The target is stunned until it regains at least one point of Intelligence. \\[0.2em]
+            \textcolor{red}{\textbf{Body Thief}} The intellect devourer initiates an Intelligence contest with an incapacitated humanoid within 5 feet of it that isn't protected by protection from evil and good. If it wins the contest, the intellect devourer magically consumes the target's brain, teleports into the target's skull, and takes control of the target's body. 
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{TINY ABERRATION, LE}}\\
+            \textcolor{red}{\textbf{SKILLS}}  Perception +2, Stealth +4 \\
+            \textcolor{red}{\textbf{RESIST}} bludgeoning, piercing, and slashing from nonmagical weapons\\
+            \textcolor{red}{\textbf{IMMUNE}} Blinded\\
+            \textcolor{red}{\textbf{SENSE}} blindsight 60 ft. (blind beyond this radius)\\
+            \textcolor{red}{\textbf{LANG}}  understands Deep Speech but can't speak, telepathy 60 ft.\\
+            \textcolor{red}{\textbf{CR(XP)}}  2 (450 XP)\\
+        \end{flushleft}
+        \end{minipage}
+	}
+\end{adjustbox}
+
+
+\pagebreak
+
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\Large{\textbf{GOBLIN}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+
+        % NAME
+        \centering{\Large{\textbf{GOBLIN}}}\\
+        \vspace{0.1in}
+
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}15 \vspace{0.2in}& 7 & 30 ft. \\
+            \rowcolor{white} 
+             & $(2d6 + 0)$ &   \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+4$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+            scimitar ($5'$, p)
+    				\\[0.5em]
+    				{\large \textbf{OR}} \\[0.5em]
+    				{\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+    				shortbow ($80/320'$, p)   
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Nimble Escape}} The goblin can take the Disengage or Hide action as a bonus action on each of its turns. \\[0.2em]
+            %\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            %\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{SMALL HUMANOID, NE}}\\
+            \textcolor{red}{\textbf{SKILLS}} Stealth +6 \\
+            \textcolor{red}{\textbf{SAVES}} None \\
+            \textcolor{red}{\textbf{RESIST}} None\\
+            \textcolor{red}{\textbf{IMMUNE}} None\\
+            \textcolor{red}{\textbf{VULN}} None\\      
+            \textcolor{red}{\textbf{SENSE}} darkvision 60 ft., passive Perception 9\\
+            \textcolor{red}{\textbf{LANG}} Common, Goblin\\
+            \textcolor{red}{\textbf{CR}}  0.25\\
+        \end{flushleft}
+        \end{minipage}
+    }
+\end{adjustbox}                     
+\hspace{0.05\textwidth}
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
             \rotatebox[origin=c]{180}{
                 \centering{\LARGE{\textbf{INVISIBLE STALKER}}}
             }\\[3em]
         \rule{\textwidth}{0.5pt}\\[2em]
+        \rule{\textwidth}{0.5pt}\\[3em]
         
         % NAME
         \centering{\LARGE{\textbf{INVISIBLE STALKER}}}\\
@@ -243,5 +1006,738 @@
 \end{adjustbox}
 
 
+\pagebreak
 
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\Large{\textbf{GOBLIN}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+
+        % NAME
+        \centering{\Large{\textbf{GOBLIN}}}\\
+        \vspace{0.1in}
+
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}15 \vspace{0.2in}& 7 & 30 ft. \\
+            \rowcolor{white} 
+             & $(2d6 + 0)$ &   \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+4$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+            scimitar ($5'$, p)
+    				\\[0.5em]
+    				{\large \textbf{OR}} \\[0.5em]
+    				{\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+    				shortbow ($80/320'$, p)   
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Nimble Escape}} The goblin can take the Disengage or Hide action as a bonus action on each of its turns. \\[0.2em]
+            %\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            %\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{SMALL HUMANOID, NE}}\\
+            \textcolor{red}{\textbf{SKILLS}} Stealth +6 \\
+            \textcolor{red}{\textbf{SAVES}} None \\
+            \textcolor{red}{\textbf{RESIST}} None\\
+            \textcolor{red}{\textbf{IMMUNE}} None\\
+            \textcolor{red}{\textbf{VULN}} None\\      
+            \textcolor{red}{\textbf{SENSE}} darkvision 60 ft., passive Perception 9\\
+            \textcolor{red}{\textbf{LANG}} Common, Goblin\\
+            \textcolor{red}{\textbf{CR}}  0.25\\
+        \end{flushleft}
+        \end{minipage}
+    }
+\end{adjustbox}                     
+\hspace{0.05\textwidth}
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \rotatebox[origin=c]{180}{
+                \centering{\LARGE{\textbf{INVISIBLE STALKER}}}
+            }\\[3em]
+        \rule{\textwidth}{0.5pt}\\[2em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+        
+        % NAME
+        \centering{\LARGE{\textbf{INVISIBLE STALKER}}}\\
+        \vspace{0.1in}
+        
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}20 \vspace{0.2in}& 5 & 6$'$ \\
+            \rowcolor{white} 
+             & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+6$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+            slam ($5'$, b)
+    %		\\[0.5em]
+    %		{\large \textbf{OR}} \\[0.5em]
+    %		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+    %		slam ($5'$, b)
+            
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{+3}$\,\,$^{16}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{+4}$\,\,$^{19}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{+2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{+2}$\,\,$^{15}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{11}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            \textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{MEDIUM ELEMENTAL, N}}\\
+            \textcolor{red}{\textbf{SKILLS}} Perception +8, Stealth +10 \\
+            \textcolor{red}{\textbf{RESIST}} Bludgeoning, Piercing, And Slashing From Nonmagical Weapons\\
+            \textcolor{red}{\textbf{IMMUNE}} Poison, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\\
+            \textcolor{red}{\textbf{SENSE}} Darkvision $60'$, Pass Perception 18\\
+            \textcolor{red}{\textbf{LANG}} Auran, Understands Common But Doesn't Speak It\\
+            \textcolor{red}{\textbf{CR(XP)}}  6 (2,300 XP)\\
+        \end{flushleft}
+        \end{minipage}
+	}
+\end{adjustbox}
+
+
+\pagebreak
+
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\Large{\textbf{GOBLIN}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+
+        % NAME
+        \centering{\Large{\textbf{GOBLIN}}}\\
+        \vspace{0.1in}
+
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}15 \vspace{0.2in}& 7 & 30 ft. \\
+            \rowcolor{white} 
+             & $(2d6 + 0)$ &   \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+4$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+            scimitar ($5'$, p)
+    				\\[0.5em]
+    				{\large \textbf{OR}} \\[0.5em]
+    				{\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+    				shortbow ($80/320'$, p)   
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Nimble Escape}} The goblin can take the Disengage or Hide action as a bonus action on each of its turns. \\[0.2em]
+            %\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            %\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{SMALL HUMANOID, NE}}\\
+            \textcolor{red}{\textbf{SKILLS}} Stealth +6 \\
+            \textcolor{red}{\textbf{SAVES}} None \\
+            \textcolor{red}{\textbf{RESIST}} None\\
+            \textcolor{red}{\textbf{IMMUNE}} None\\
+            \textcolor{red}{\textbf{VULN}} None\\      
+            \textcolor{red}{\textbf{SENSE}} darkvision 60 ft., passive Perception 9\\
+            \textcolor{red}{\textbf{LANG}} Common, Goblin\\
+            \textcolor{red}{\textbf{CR}}  0.25\\
+        \end{flushleft}
+        \end{minipage}
+    }
+\end{adjustbox}                     
+\hspace{0.05\textwidth}
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \rotatebox[origin=c]{180}{
+                \centering{\LARGE{\textbf{INVISIBLE STALKER}}}
+            }\\[3em]
+        \rule{\textwidth}{0.5pt}\\[2em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+        
+        % NAME
+        \centering{\LARGE{\textbf{INVISIBLE STALKER}}}\\
+        \vspace{0.1in}
+        
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}20 \vspace{0.2in}& 5 & 6$'$ \\
+            \rowcolor{white} 
+             & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+6$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+            slam ($5'$, b)
+    %		\\[0.5em]
+    %		{\large \textbf{OR}} \\[0.5em]
+    %		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+    %		slam ($5'$, b)
+            
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{+3}$\,\,$^{16}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{+4}$\,\,$^{19}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{+2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{+2}$\,\,$^{15}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{11}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            \textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{MEDIUM ELEMENTAL, N}}\\
+            \textcolor{red}{\textbf{SKILLS}} Perception +8, Stealth +10 \\
+            \textcolor{red}{\textbf{RESIST}} Bludgeoning, Piercing, And Slashing From Nonmagical Weapons\\
+            \textcolor{red}{\textbf{IMMUNE}} Poison, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\\
+            \textcolor{red}{\textbf{SENSE}} Darkvision $60'$, Pass Perception 18\\
+            \textcolor{red}{\textbf{LANG}} Auran, Understands Common But Doesn't Speak It\\
+            \textcolor{red}{\textbf{CR(XP)}}  6 (2,300 XP)\\
+        \end{flushleft}
+        \end{minipage}
+	}
+\end{adjustbox}
+
+
+\pagebreak
+
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\Large{\textbf{GOBLIN}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+
+        % NAME
+        \centering{\Large{\textbf{GOBLIN}}}\\
+        \vspace{0.1in}
+
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}15 \vspace{0.2in}& 7 & 30 ft. \\
+            \rowcolor{white} 
+             & $(2d6 + 0)$ &   \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+4$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+            scimitar ($5'$, p)
+    				\\[0.5em]
+    				{\large \textbf{OR}} \\[0.5em]
+    				{\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+    				shortbow ($80/320'$, p)   
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Nimble Escape}} The goblin can take the Disengage or Hide action as a bonus action on each of its turns. \\[0.2em]
+            %\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            %\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{SMALL HUMANOID, NE}}\\
+            \textcolor{red}{\textbf{SKILLS}} Stealth +6 \\
+            \textcolor{red}{\textbf{SAVES}} None \\
+            \textcolor{red}{\textbf{RESIST}} None\\
+            \textcolor{red}{\textbf{IMMUNE}} None\\
+            \textcolor{red}{\textbf{VULN}} None\\      
+            \textcolor{red}{\textbf{SENSE}} darkvision 60 ft., passive Perception 9\\
+            \textcolor{red}{\textbf{LANG}} Common, Goblin\\
+            \textcolor{red}{\textbf{CR}}  0.25\\
+        \end{flushleft}
+        \end{minipage}
+    }
+\end{adjustbox}                     
+\hspace{0.05\textwidth}
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \rotatebox[origin=c]{180}{
+                \centering{\LARGE{\textbf{INVISIBLE STALKER}}}
+            }\\[3em]
+        \rule{\textwidth}{0.5pt}\\[2em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+        
+        % NAME
+        \centering{\LARGE{\textbf{INVISIBLE STALKER}}}\\
+        \vspace{0.1in}
+        
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}20 \vspace{0.2in}& 5 & 6$'$ \\
+            \rowcolor{white} 
+             & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+6$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+            slam ($5'$, b)
+    %		\\[0.5em]
+    %		{\large \textbf{OR}} \\[0.5em]
+    %		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+    %		slam ($5'$, b)
+            
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{+3}$\,\,$^{16}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{+4}$\,\,$^{19}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{+2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{+2}$\,\,$^{15}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{11}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            \textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{MEDIUM ELEMENTAL, N}}\\
+            \textcolor{red}{\textbf{SKILLS}} Perception +8, Stealth +10 \\
+            \textcolor{red}{\textbf{RESIST}} Bludgeoning, Piercing, And Slashing From Nonmagical Weapons\\
+            \textcolor{red}{\textbf{IMMUNE}} Poison, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\\
+            \textcolor{red}{\textbf{SENSE}} Darkvision $60'$, Pass Perception 18\\
+            \textcolor{red}{\textbf{LANG}} Auran, Understands Common But Doesn't Speak It\\
+            \textcolor{red}{\textbf{CR(XP)}}  6 (2,300 XP)\\
+        \end{flushleft}
+        \end{minipage}
+	}
+\end{adjustbox}
+
+
+\pagebreak
+
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \centering{
+            \rotatebox[origin=c]{180}{
+                \centering{\Large{\textbf{GOBLIN}}}
+            }}\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+
+        % NAME
+        \centering{\Large{\textbf{GOBLIN}}}\\
+        \vspace{0.1in}
+
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}15 \vspace{0.2in}& 7 & 30 ft. \\
+            \rowcolor{white} 
+             & $(2d6 + 0)$ &   \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+4$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+            scimitar ($5'$, p)
+    				\\[0.5em]
+    				{\large \textbf{OR}} \\[0.5em]
+    				{\huge$\textcolor{red}{\mathbf{1d6 +2}}^{5}\textcolor{red}{\times 1}$}\\[0.5em]
+    				shortbow ($80/320'$, p)   
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{-1}$\,\,$^{8}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Nimble Escape}} The goblin can take the Disengage or Hide action as a bonus action on each of its turns. \\[0.2em]
+            %\textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            %\textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{SMALL HUMANOID, NE}}\\
+            \textcolor{red}{\textbf{SKILLS}} Stealth +6 \\
+            \textcolor{red}{\textbf{SAVES}} None \\
+            \textcolor{red}{\textbf{RESIST}} None\\
+            \textcolor{red}{\textbf{IMMUNE}} None\\
+            \textcolor{red}{\textbf{VULN}} None\\      
+            \textcolor{red}{\textbf{SENSE}} darkvision 60 ft., passive Perception 9\\
+            \textcolor{red}{\textbf{LANG}} Common, Goblin\\
+            \textcolor{red}{\textbf{CR}}  0.25\\
+        \end{flushleft}
+        \end{minipage}
+    }
+\end{adjustbox}                     
+\hspace{0.05\textwidth}
+\begin{adjustbox}{minipage=0.45\textwidth, margin=\fboxsep, bgimage=../images/texture2.pdf}
+    \noindent\makebox[\textwidth][c]{%
+        \begin{minipage}[t][10.5in][t]{0.9\textwidth}
+            \vspace{4em}
+            % DISPLAY NAME
+            \rotatebox[origin=c]{180}{
+                \centering{\LARGE{\textbf{INVISIBLE STALKER}}}
+            }\\[3em]
+        \rule{\textwidth}{0.5pt}\\[1em]
+        \rule{\textwidth}{0.5pt}\\[3em]
+        
+        % NAME
+        \centering{\LARGE{\textbf{INVISIBLE STALKER}}}\\
+        \vspace{0.1in}
+        
+        % AC/HP/SPEED
+        \begin{tabularx}{\textwidth}{^Z|*U|*U@{}}  
+            \rowcolor{black} 
+            \rowstyle{\bfseries}
+            \textcolor{white}{AC} & \textcolor{white}{HP} & \textcolor{white}{SPEED} \\
+            \rowcolor{white} 
+            \rowstyle{\huge} 
+            \vspace{0.2in}20 \vspace{0.2in}& 5 & 6$'$ \\
+            \rowcolor{white} 
+             & $(16d8 + 32)$ & 50$'$ Fly (hover) \\
+            \rowcolor{black} 
+            \multicolumn{3}{c@{}}{\textcolor{white}{\textbf{ACTIONS}}}
+        \end{tabularx}\\	
+        % ACTIONS
+        \begin{minipage}[c]{0.2\textwidth}
+            \vspace{0.1in} 
+            \circled{\huge $+6$}
+        \end{minipage}
+        \hspace{0.01\textwidth}
+        \begin{minipage}[t]{0.7\textwidth}
+            \vspace{-0.2in} 
+            {\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+            slam ($5'$, b)
+    %		\\[0.5em]
+    %		{\large \textbf{OR}} \\[0.5em]
+    %		{\huge$\textcolor{red}{\mathbf{2d6+3}}^{10}\textcolor{red}{\times 1}$}\\[0.5em]
+    %		slam ($5'$, b)
+            
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{0.025in}
+        % STAT BLOCK
+        \begin{minipage}[t]{0.2\textwidth}
+            {\large
+            \textcolor{red}{\textbf{STR}}\\[0.1em]
+            $\mathbf{+3}$\,\,$^{16}$ \\[0.1em]
+            \textcolor{red}{\textbf{DEX}}\\[0.1em]
+            $\mathbf{+4}$\,\,$^{19}$ \\[0.1em]
+            \textcolor{red}{\textbf{CON}}\\[0.1em]
+            $\mathbf{+2}$\,\,$^{14}$ \\[0.1em]
+            \textcolor{red}{\textbf{INT}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{10}$ \\[0.1em]
+            \textcolor{red}{\textbf{WIS}}\\[0.1em]
+            $\mathbf{+2}$\,\,$^{15}$ \\[0.1em]
+            \textcolor{red}{\textbf{CHA}}\\[0.1em]
+            $\mathbf{+0}$\,\,$^{11}$ \\[0.1em]
+            }
+        \end{minipage}
+        \hspace{-0.1in}
+        \vline
+        \hspace{0.1in}
+        % ABILITIES
+        \begin{minipage}[t]{0.7\textwidth}
+            \textcolor{red}{\textbf{Invisibility}} The stalker is invisible. \\[0.2em]
+            \textcolor{red}{\textbf{Faultless Tracker.}} The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+        \end{minipage}
+        \vspace{0.025in}\\
+        \rule{\textwidth}{1pt}\\
+        \vspace{-0.08in}
+        % PROPERTIES
+        \begin{flushleft}
+            {\large\textbf{MEDIUM ELEMENTAL, N}}\\
+            \textcolor{red}{\textbf{SKILLS}} Perception +8, Stealth +10 \\
+            \textcolor{red}{\textbf{RESIST}} Bludgeoning, Piercing, And Slashing From Nonmagical Weapons\\
+            \textcolor{red}{\textbf{IMMUNE}} Poison, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\\
+            \textcolor{red}{\textbf{SENSE}} Darkvision $60'$, Pass Perception 18\\
+            \textcolor{red}{\textbf{LANG}} Auran, Understands Common But Doesn't Speak It\\
+            \textcolor{red}{\textbf{CR(XP)}}  6 (2,300 XP)\\
+        \end{flushleft}
+        \end{minipage}
+	}
+\end{adjustbox}
 \end{document}
